@@ -59,7 +59,7 @@
       { name: "ناحية حمام العليل", mgrs: "38S LF 32400 98500", coords: [36.160, 43.250] },
       { name: "ناحية الشورى", mgrs: "38S LF 18500 89200", coords: [35.980, 43.110] },
       { name: "ناحية المحلبية", mgrs: "38S KF 98200 18500", coords: [36.280, 42.820] },
-      { name: "ناحية بعشيقة", mgrs: "38S LF 45200 42100", coords: [36.450, 43.340] }
+     
     ];
     locs.forEach(l => {
       const icon = L.divIcon({ className:'custom', html:`<div class="mil-tag"><div>${l.name}</div><span>${l.mgrs.split(' ')[0]} ${l.mgrs.split(' ')[1]}</span></div>`, iconSize:[105,36], iconAnchor:[52,18] });
